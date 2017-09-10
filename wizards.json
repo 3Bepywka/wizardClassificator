@@ -1,0 +1,36 @@
+{
+  "allWizards": [
+    {
+      "name": "Harry",
+      "gender": "MALE",
+      "age": 17,
+      "magicWand": "HOLLY",
+      "faculty": "GRYFFINDOR",
+      "exceptionalAbility": "PARSELMOUTH"
+    },
+    {
+      "name": "Volandemort",
+      "gender": "MALE",
+      "age": 300,
+      "magicWand": "YEW",
+      "faculty": "SLYTHERIN",
+      "exceptionalAbility": "PARSELMOUTH"
+    },
+    {
+      "name": "Germiona",
+      "gender": "FEMALE",
+      "age": 17,
+      "magicWand": "ASH",
+      "faculty": "GRYFFINDOR",
+      "exceptionalAbility": "ABSENT"
+    },
+    {
+      "name": "Belatrisa",
+      "gender": "FEMALE",
+      "age": 45,
+      "magicWand": "WALNUT",
+      "faculty": "SLYTHERIN",
+      "exceptionalAbility": "ABSENT"
+    }
+  ]
+}
