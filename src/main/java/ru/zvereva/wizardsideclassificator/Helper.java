@@ -1,10 +1,9 @@
-package utils;
+package ru.zvereva.wizardsideclassificator;
 
-import model.*;
-import utils.Serializer;
+import ru.zvereva.wizardsideclassificator.model.*;
+import ru.zvereva.wizardsideclassificator.utils.Serializer;
 
 import java.io.IOException;
-import java.rmi.server.ExportException;
 
 public class Helper {
 

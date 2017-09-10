@@ -1,8 +1,8 @@
-package utils;
+package ru.zvereva.wizardsideclassificator.utils;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import model.*;
+import ru.zvereva.wizardsideclassificator.model.*;
 
 import java.io.IOException;
 import java.io.Reader;

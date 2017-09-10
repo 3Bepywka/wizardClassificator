@@ -1,4 +1,4 @@
-package model;
+package ru.zvereva.wizardsideclassificator.model;
 
 public class Wizard {
 
@@ -16,6 +16,32 @@ public class Wizard {
         this.magicWand = magicWand;
         this.faculty = faculty;
         this.exceptionalAbility = exceptionalAbility;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Wizard wizard = (Wizard) o;
+
+        if (age != wizard.age) return false;
+        if (name != null ? !name.equals(wizard.name) : wizard.name != null) return false;
+        if (gender != wizard.gender) return false;
+        if (magicWand != wizard.magicWand) return false;
+        if (faculty != wizard.faculty) return false;
+        return exceptionalAbility == wizard.exceptionalAbility;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = name != null ? name.hashCode() : 0;
+        result = 31 * result + (gender != null ? gender.hashCode() : 0);
+        result = 31 * result + age;
+        result = 31 * result + (magicWand != null ? magicWand.hashCode() : 0);
+        result = 31 * result + (faculty != null ? faculty.hashCode() : 0);
+        result = 31 * result + (exceptionalAbility != null ? exceptionalAbility.hashCode() : 0);
+        return result;
     }
 
     @Override

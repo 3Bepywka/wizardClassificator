@@ -1,4 +1,4 @@
-package model;
+package ru.zvereva.wizardsideclassificator.model;
 
 import java.util.ArrayList;
 import java.util.List;

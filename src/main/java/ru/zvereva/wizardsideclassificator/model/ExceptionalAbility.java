@@ -1,4 +1,4 @@
-package model;
+package ru.zvereva.wizardsideclassificator.model;
 
 public enum ExceptionalAbility {
 

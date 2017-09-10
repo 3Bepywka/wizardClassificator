@@ -1,6 +1,8 @@
-import model.*;
-import utils.Classificator;
-import utils.Serializer;
+package ru.zvereva.wizardsideclassificator;
+
+import ru.zvereva.wizardsideclassificator.model.*;
+import ru.zvereva.wizardsideclassificator.utils.Classificator;
+import ru.zvereva.wizardsideclassificator.utils.Serializer;
 
 import java.io.IOException;
 
