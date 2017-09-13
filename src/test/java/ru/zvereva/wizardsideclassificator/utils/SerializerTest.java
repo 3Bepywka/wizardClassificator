@@ -1,7 +1,6 @@
 package ru.zvereva.wizardsideclassificator.utils;
 
 import org.junit.Rule;
-import org.junit.rules.ErrorCollector;
 import org.junit.rules.TemporaryFolder;
 import ru.zvereva.wizardsideclassificator.model.*;
 import org.junit.Assert;
@@ -12,10 +11,10 @@ import java.io.IOException;
 import java.nio.file.Files;
 
 import static org.hamcrest.Matchers.contains;
-import static org.hamcrest.Matchers.empty;
 import static org.hamcrest.Matchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
 
-public class SerializerTest extends Assert {
+public class SerializerTest {
 
     @Rule
     public TemporaryFolder temporaryFolder = new TemporaryFolder();
